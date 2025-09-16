@@ -1,0 +1,60 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 25px 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 360px;
+}
+
+h1 {
+  color: #ff4b5c;
+  font-size: 24px;
+}
+
+.antrian-box {
+  background: #ffe3e3;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 12px;
+  border: 2px dashed #ff6f91;
+}
+
+#nomorSekarang {
+  font-size: 50px;
+  color: #ff2e63;
+}
+
+button {
+  margin: 8px;
+  padding: 12px 18px;
+  border: none;
+  background: #ff6f91;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #ff2e63;
+}
+
+.daftar-antrian {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.daftar-antrian h3 {
+  color: #ff4b5c;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antrian Loket Imut</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💖 Sistem Antrian Loket 💖</h1>
+
+    <div class="antrian-box">
+      <p id="statusPanggilan">Belum ada antrian</p>
+      <h2 id="nomorSekarang">0</h2>
+    </div>
+
+    <button onclick="ambilAntrian()">✨ Ambil Nomor ✨</button>
+    <button onclick="panggilAntrian()">📢 Panggil Antrian 📢</button>
+
+    <div class="daftar-antrian">
+      <h3>📋 Daftar Antrian:</h3>
+      <ul id="listAntrian"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
